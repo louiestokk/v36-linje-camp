@@ -22,3 +22,6 @@ pa rad 19 i ul i nav for att vi vill ha navigations lankarna pa en och samma rad
 Om vi skulle anvanda flex box med direction row och ha flera avgangar skulle vi fa en overflow x och man skulle kunnan avanda overflowx scroll for att styra antalal rader vilket blir en enda rad. Men med flexwrap skapar den fler columner dock kan vi inte styra antal rader och columner och medfor en del extra css kod.  
 
 # Jag kan förklara varje rad jag har pushat.
+
+# Varför du valde två eller tre kolumner för Linje 47.
+grid item har sa lite innehall sa jag valde 4 columner. 

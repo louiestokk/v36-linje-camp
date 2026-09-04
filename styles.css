@@ -38,8 +38,9 @@ nav ul a {
     color: #000;
     text-decoration: none;
 }
-nav ul a:hover {
-    text-decoration: none;
+nav ul li:hover {
+    cursor: pointer;
+   background-color: #b0f0c1;
 }
 
 
@@ -57,7 +58,8 @@ header p{
 
 .tabla {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* short-hand for 4 columns */
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
